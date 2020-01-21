@@ -5,5 +5,5 @@ helloworld:
 
 symfony_bench_test:
     path: '/test'
-    methods: DELETE
+    methods: GET
     controller: App\Controller\PhpInfoController
