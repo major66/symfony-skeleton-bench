@@ -1,0 +1,9 @@
+helloworld:
+    path: /benchmark/helloworld
+    controller: App\Controller\HelloWorldController
+
+
+symfony_bench_test:
+    path: '/test'
+    methods: DELETE
+    controller: App\Controller\PhpInfoController

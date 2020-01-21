@@ -1,0 +1,29 @@
+###> Phpstorm IDE ###
+/.idea/
+###< Phpstorm IDE ###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> GCP ###
+/config/gcp/*.json
+###< GCP ###
+
+###> JWT ###
+/config/jwt/*.pem
+###< JWT ###
+
+###> OAuth2 ###
+/config/oauth2/*.key
+###< OAuth2 ###
